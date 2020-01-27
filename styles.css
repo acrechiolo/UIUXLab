@@ -1,7 +1,67 @@
-img {
-  background-color: white;
-  height: 100px;
-  width: 100px;
-  border-radius: 50px;
-  image-rendering: pixelated;
+body {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1e392a;
+}
+h1 {
+  font-family: "Courgette", cursive;
+  font-size: 20px;
+  color: #3cc47c;
+}
+p {
+  color: #e9c893;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  padding: 5px;
+  color: #3cc47c;
+  top: 100px;
+}
+main {
+  border: 1px solid #1e392a;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-family: "Courgette", cursive;
+  color: #1e392a;
+}
+section {
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid black;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input {
+  padding: 5px;
+  margin: 0px 0px 10px 0px;
+}
+
+option {
+  margin: 10px;
+}
+button {
+  margin: auto;
+  background-color: #1e392a;
+  color: white;
+}
+@media screen and (min-width: 768px) {
 }
