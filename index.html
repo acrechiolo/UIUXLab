@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Wilderless</title>
+  </head>
+  <body>
+      <header>
+        <h1>Wilderless</h1>
+            <p>Upload and Sell Your Gear</p>
+            <nav>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">IDK</a></li>
+             <nav>
+        </header>
+    <main>
+        <section>
+        <form class="upload">
+            <h2>Step 1: Upload Image</h2>
+            <label for="upload-image">Image:</label>
+            <input type="file" placeholder="upload image" id="upload-image" />
+        </form>
+        </section>
+        <section>
+        <form class="create-title">
+            <h2>Step 2: Create a Title</h2>
+            <label for="title">Title:</label>
+            <input type="text" placeholder="Enter tile here" id="title"/>
+        </form>
+        </section>
+        <section>
+            <form class="about-item">
+                <h2>Tell Us About Your Item</h2>
+                <label for="category">Choose Category</label>
+                    <select id="category">
+                        <option selected=" ">Gear</option>
+                        <option>Clothing</option>
+                        <option>Shoes</option>
+                    </select>
+                    <label for="brand">Brand:</label>
+                    <input type="text" placeholder="Enter brand here" id="brand"/>   
+                    <label for="size">Size:</label>
+                    <input type="text" placeholder="Enter size here" id="size"/>   
+                    <label for="model">Model:</label>
+                    <input type="text" placeholder="Enter model here" id="model"/>
+                        <select id="conditon">
+                            <label for="condition">Condition:</label>
+                            <option selected=" ">New</option>
+                            <option>Excellent</option>
+                            <option>Good</option>
+                            <option>Fair</option>
+                        </select>
+            </form>
+        </section>
+        <section>
+            <button>Submit</button>
+        </section>
+    </main>
+  </body>
+</html>
